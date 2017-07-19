@@ -1,10 +1,6 @@
-# written by Benoit Sarda
-# ejbca container. uses bsarda/jboss by copy/paste.
-#
-#   bsarda <b.sarda@free.fr>
-#
+# EJBCA embedded server
+
 FROM centos:centos7.2.1511
-MAINTAINER Benoit Sarda <b.sarda@free.fr>
 
 # expose
 EXPOSE 8080 8442 8443
